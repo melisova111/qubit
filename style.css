@@ -705,10 +705,10 @@ header .container {
 	flex-shrink: 0;
 	border-radius: 30px;
 	background: #6F2CFF;
-	color: #FFF;
+color: #FFF;
 	font-family: Roboto;
-	font-size: 14px;
-	font-style: normal;
+font-size: 14px;
+	
 	font-weight: 700;
 	line-height: 14px;
 	margin-top: 50px;

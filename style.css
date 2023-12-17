@@ -229,11 +229,8 @@ header .container {
 	flex-shrink: 0;
 	background: #6F2DFF;
 	margin: 0 auto;
-
 	margin-bottom: 20px;
 }
-
-
 
 /* grow */
 .grow {

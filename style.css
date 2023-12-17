@@ -328,8 +328,6 @@ header .container {
 }
 
 /* qubit */
-
-
 .qubit_tit {
 	width: 387px;
 	font-family: Roboto;
@@ -338,7 +336,6 @@ header .container {
 	line-height: 45px;
 	margin: 0 auto;
 	margin-bottom: 18px;
-
 }
 
 .qubit_txt {

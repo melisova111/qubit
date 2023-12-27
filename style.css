@@ -227,7 +227,7 @@ header .container {
 }
 
 .grow_cards {
-	display: inline-flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 96px;
@@ -337,7 +337,7 @@ header .container {
 
 .qubit_card {
 	margin-top: 46px;
-	margin-bottom: 20px; 	
+	margin-bottom: 20px;
 }
 
 /* all */
@@ -361,9 +361,9 @@ header .container {
 }
 
 .all_img {
-    max-width: 996px;
-    width: 100%;
-    margin: 0 auto;
+	max-width: 996px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .btn_all {
@@ -435,18 +435,19 @@ header .container {
 }
 
 .what_card {
-justify-content: space-around;
-margin: 0 auto;
-margin-bottom: 80px;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-bottom: 80px;
 }
 
 /* trust */
 
-.assa{
+.assa {
 	width: 50px;
-height: 50px;
-margin-top: 180px;
+	height: 50px;
+	margin-top: 180px;
 }
+
 .trust {
 	background: #F5F5F5;
 }
@@ -601,13 +602,12 @@ margin-top: 180px;
 	margin-bottom: 10px;
 }
 
-.img_con {
-	width: 567px;
-	height: 567px;
+.con_right {
+	max-width: 567px;
 }
 
 .cons {
-	display: inline-flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 83px;
@@ -676,7 +676,7 @@ margin-top: 180px;
 }
 
 .iconsflex {
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 20px;
@@ -686,8 +686,6 @@ margin-top: 180px;
 /* footer */
 footer {
 	background: #20003C;
-	height: 650px;
-	margin: 0 auto;
 }
 
 .footer_tit {
@@ -737,4 +735,3 @@ footer {
 	line-height: 30px;
 	margin: 0 auto;
 }
-

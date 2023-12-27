@@ -12,6 +12,6 @@ function outNum(num, elem) {
         }
         l.innerHTML = n;
     },
-    t);
+        t);
 }
 doll(1000, 'out-1');

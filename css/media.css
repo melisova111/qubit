@@ -17,6 +17,38 @@
 	.container{
 		max-width: 420px;
 	}
+
+    .search {
+        width: 300px;
+    }
+    
+    .search_input {
+        width: 200px;
+        height: 45px;
+        border-radius: 28px 0px 0px 28px;
+        border: 2px solid #6f2cff;
+        background: #ffffff;
+        color: rgba(0, 0, 0, 0.27);
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        padding-left: 20px;
+    }
+    
+    .search .btn_input {
+        border-radius: 0px 27.5px 27.5px 0px;
+        background: #6F2CFF;
+        width: 100px;
+        height: 45px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+    }
 }
 @media screen and (max-width: 450px) {
 	.container{

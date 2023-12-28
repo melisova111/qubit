@@ -73,7 +73,6 @@ textarea {
 
 body {
 	font-size: 14px;
-	line-height: 19px;
 	color: #1C1C1C;
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
@@ -264,10 +263,11 @@ header .container {
 	background-image: url(../img/1img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: auto;
 	width: 100%;
 	display: flex;
 	align-items: center;
+	padding: 134px 0 194px 0;
 }
 
 .make .box {
@@ -352,4 +352,124 @@ header .container {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 21px;
+}
+
+/* world */
+.world_sec {
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.world_tit {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 18px;
+}
+
+.world_ic {
+	padding: 14px 55px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1320px;
+	width: 100%;
+}
+
+.world_ic img {
+	width: 102px;
+	height: 42px;
+	margin-bottom: 34px;
+}
+
+.world_txt {
+	margin: 0 auto;
+	color: #1C1C1C;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-top: 10px;
+	border-bottom: #6F2CFF 2px solid;
+	width: 170px;
+}
+
+
+/* grow */
+.grow {
+	justify-content: center;
+	align-items: center;
+}
+
+.grow_cards {
+	align-items: center;
+	margin-bottom: 96px;
+	margin-top: 80px;
+}
+.grow_left{
+	width: 401px;
+}
+.grow_txt {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	width: 400px;
+}
+.grow_btn{
+	width: 180px;
+	margin-right: 22px;
+}
+
+.grow_ttt {
+	height: 52px;
+	margin-bottom: 50px;
+	width: 360px;
+	height: 40px;
+	align-items: center;
+}
+
+.world_txtt {
+	color: #1C1C1C;
+	font-size: 16px;
+	border-bottom: 2px solid #6F2CFF;
+}
+
+.teeext {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.teeext2 {
+	font-size: 15px;
+	line-height: 30px;
+	display: inline;
+	border-bottom: 1px solid black;
+}
+
+.grow_card {
+	width: 200px;
+	height: 220px;
+	border-left: 1px solid #E0E0E0;
+}
+
+.doll {
+	width: 100px;
+	color: #000;
+	font-size: 40px;
+	line-height: 45px;
+	margin-bottom: 10px;
+}
+
+.grow_tit {
+	width: 156px;
+}
+
+.grow_right_right .grow_right_left {
+	height: 220px;
+	background: #E0E0E0;
+}
+
+.grow_right {
+	max-width: 620px;
 }

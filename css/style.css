@@ -521,13 +521,10 @@ header .container {
 	margin-bottom: 50px;
 }
 
-
-
 .qubit_txtx {
 	color: #000;
 	text-align: center;
 	margin-bottom: 20px;
-
 }
 
 .qubit_textt {
@@ -715,7 +712,7 @@ header .container {
 }
 
 .trust_cards {
-	margin-bottom: 236px;
+	margin-bottom: 120px;
 }
 
 .trust_ic {

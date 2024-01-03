@@ -813,9 +813,9 @@ header .container {
 
 .con_tit {
 	color: #17002E;
-font-size: 40px;
-line-height: 45px; 
-margin-bottom: 50px;
+	font-size: 40px;
+	line-height: 45px;
+	margin-bottom: 50px;
 
 }
 
@@ -851,10 +851,11 @@ margin-bottom: 50px;
 	margin: 0 auto;
 	margin-bottom: 35px;
 }
-.book_bg{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.book_bg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 }
 
@@ -928,7 +929,7 @@ footer {
 
 .footer_ic {
 	width: 73px;
-	height: 21px; 
+	height: 21px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
@@ -942,5 +943,3 @@ footer {
 	line-height: 30px;
 	margin: 0 auto;
 }
-
-

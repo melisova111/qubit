@@ -52,27 +52,43 @@ function closeMenu() {
 
 
 
-// const swiper = document.querySelector('.swiper').swiper;
+// // const swiper = document.querySelector('.swiper').swiper;
 
-// // Now you can use all slider methods like
-// swiper.slideNext();
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
-    mousewheel: true,
-    keyboard: true,
-});
+// // // Now you can use all slider methods like
+// // swiper.slideNext();
+// var swiper = new Swiper(".mySwiper", {
+//     slidesPerView:1,
+//     spaceBetween: 30,
+//     // breakpoints:{
+//     //     320:{
+//     //         slidesPerView:2,
+//     //         spaceBetween: 20,
+//     //     },
+//     //     480:{
+//     //         slidesPerView:3,
+//     //         spaceBetween: 30,
+//     //     },  
+//     //     640:{
+//     //         slidesPerView:4,
+//     //         spaceBetween: 40,
+//     //     },
+//     // },
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+//     pagination: {
+//         el: ".swiper-pagination",
+//     },
+//     mousewheel: true,
+//     keyboard: true,
+// });
 
 
 // slider
 var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
+    slidesPerView:1,
+    spaceBetween: 10,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

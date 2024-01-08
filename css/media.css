@@ -1,17 +1,19 @@
 @media screen and (max-width: 1300px) {
-	.container{
-		max-width: 960px;
-	}
+    .container {
+        max-width: 960px;
+    }
 }
+
 @media screen and (max-width: 990px) {
-	.container{
-		max-width: 750px;
-	}
+    .container {
+        max-width: 750px;
+    }
 }
+
 @media screen and (max-width: 780px) {
-	.container{
-		max-width: 510px;
-	}
+    .container {
+        max-width: 510px;
+    }
 
     .grow_cards {
         flex-direction: column;
@@ -31,19 +33,20 @@
         margin-bottom: 30px;
     }
 
-    .trust_card{
+    .trust_card {
         margin-bottom: 30px;
     }
 }
+
 @media screen and (max-width: 540px) {
-	.container{
-		max-width: 420px;
-	}
+    .container {
+        max-width: 420px;
+    }
 
     .search {
         width: 300px;
     }
-    
+
     .search_input {
         width: 200px;
         height: 45px;
@@ -58,7 +61,7 @@
         line-height: 21px;
         padding-left: 20px;
     }
-    
+
     .search .btn_input {
         border-radius: 0px 27.5px 27.5px 0px;
         background: #6F2CFF;
@@ -76,28 +79,35 @@
         flex-direction: column;
         align-items: center;
     }
-    .con_tit  {
+
+    .con_tit {
         text-align: center;
     }
-    .con_txt{
+
+    .con_txt {
         text-align: center;
     }
+
     .btn_con {
         align-items: center;
     }
-    .con_right{
+
+    .con_right {
         margin-top: 70px;
     }
-    .book_tit{
-text-align: center;
-margin-bottom: 40px;
+
+    .book_tit {
+        text-align: center;
+        margin-bottom: 40px;
     }
 }
+
 @media screen and (max-width: 450px) {
-	.container{
-		max-width: 100%;
-	}
-    .footer_footer{
+    .container {
+        max-width: 100%;
+    }
+
+    .footer_footer {
         margin-bottom: 10px;
     }
 }
@@ -136,24 +146,27 @@ margin-bottom: 40px;
 
 }
 
-@media only screen and (max-width: 550px){
-.btns{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+@media only screen and (max-width: 550px) {
+    .btns {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-.btn_all{
-    margin-bottom: 20px;
-}
-.con_right{
-    margin-bottom: -160px;
-}
-.footer_footer{
-	height: 120px;
-    text-align: center;
-    margin-left: 50px;
-}
-.grow_cards{
-    margin-bottom: -100px;
-}
+    .btn_all {
+        margin-bottom: 20px;
+    }
+
+    .con_right {
+        margin-bottom: -160px;
+    }
+
+    .footer_footer {
+        height: 120px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    .grow_cards {
+        margin-bottom: -100px;
+    }
 }

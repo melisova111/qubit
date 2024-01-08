@@ -478,7 +478,7 @@ header .container {
 .grow_card {
 	width: 200px;
 	height: 220px;
-	border-left: 1px solid #E0E0E0;
+	border-left: 1px solid #E0E0E0 ;
 }
 
 .doll {
@@ -697,9 +697,6 @@ header .container {
 	margin: 0 auto;
 }
 
-.trust_card:hover {
-	box-shadow: 0px 9px 9px 0px rgba(192, 192, 192, 0.50);
-}
 
 .img_trust {
 	width: 320px;
@@ -781,6 +778,12 @@ header .container {
 	padding-bottom: 40px;
 	width: 380px;
 	margin-bottom: 30px;
+
+}
+.we .box:hover{
+	box-shadow: 6px 6px 35px 9px #a354d8;
+	transform: scale(1.1);
+	transition: 500ms;
 }
 
 .we .box_icon {
@@ -820,6 +823,7 @@ header .container {
 
 .we .boxs {
 	justify-content: space-around;
+	
 }
 
 /* con */
@@ -984,7 +988,7 @@ footer {
 	align-items: center;
 	width: 100%;
 	height: 100%;
-	
+
 }
 
 .swiper-button-next,

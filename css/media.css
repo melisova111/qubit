@@ -143,7 +143,9 @@
     .nav-link {
         color: white;
     }
-
+.btns{
+    margin-bottom: 10px;
+}
 }
 
 @media only screen and (max-width: 550px) {
@@ -170,3 +172,4 @@
         margin-bottom: -100px;
     }
 }
+

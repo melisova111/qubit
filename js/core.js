@@ -42,7 +42,7 @@ function closeMenu() {
                         counter[i].innerText = counter[i].dataset.to;
                         clearInterval(int);
                     }
-                }, 180);
+                }, 60);
             }
         }
     });

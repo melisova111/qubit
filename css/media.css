@@ -2,6 +2,7 @@
     .container {
         max-width: 960px;
     }
+    
 }
 
 @media screen and (max-width: 990px) {
@@ -16,7 +17,7 @@
     }
 
     .grow_cards {
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
@@ -35,6 +36,13 @@
 
     .trust_card {
         margin-bottom: 30px;
+    }
+    .qubit_cards{
+        justify-content: center;
+        align-items: center;
+    }
+    .btns_all{
+        justify-content: center;
     }
 }
 
@@ -143,23 +151,21 @@
     .nav-link {
         color: white;
     }
-.btns{
-    margin-bottom: 10px;
+.btns {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 }
 
 @media only screen and (max-width: 550px) {
-    .btns {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 
     .btn_all {
         margin-bottom: 20px;
     }
 
     .con_right {
-        margin-bottom: -160px;
+        margin-bottom: -120px;
     }
 
     .footer_footer {
@@ -173,3 +179,9 @@
     }
 }
 
+@media only screen and (max-width: 1189px){
+    .world_ic{
+        display: flex;
+        justify-content: space-between;
+    }
+}

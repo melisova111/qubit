@@ -181,8 +181,6 @@ section {
 	justify-content: space-between;
 }
 
-
-
 /* header */
 
 .nav-logo img {
@@ -193,7 +191,9 @@ header .container {
 	max-width: 1440px;
 	margin: 0 auto;
 }
-
+.btns{
+	font-family: Roboto;
+}
 .btn {
 	width: 157px;
 	height: 40px;
@@ -279,6 +279,7 @@ header .container {
 	background-image: url(../img/1img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	height: auto;
 	width: 100%;
 	display: flex;
@@ -559,6 +560,10 @@ header .container {
 	line-height: 22px;
 }
 
+.qubit_cards{
+	
+justify-content: space-around
+}
 /* all */
 .all {
 	background: #F5F5F5;
@@ -763,7 +768,6 @@ header .container {
 	font-size: 18px;
 	text-align: center;
 	margin-bottom: 50px;
-
 }
 
 .we .box {
@@ -773,13 +777,12 @@ header .container {
 	padding-bottom: 40px;
 	width: 380px;
 	margin-bottom: 30px;
-
+	transition: 1s;
 }
 
 .we .box:hover {
 	box-shadow: 6px 6px 35px 9px #a354d8;
 	transform: scale(1.1);
-	transition: 1s;
 }
 
 .we .box_icon {

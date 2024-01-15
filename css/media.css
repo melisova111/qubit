@@ -2,7 +2,6 @@
     .container {
         max-width: 960px;
     }
-    
 }
 
 @media screen and (max-width: 990px) {
@@ -43,6 +42,10 @@
     }
     .btns_all{
         justify-content: center;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: var(--swiper-navigation-top-offset,110%);
     }
 }
 
@@ -179,9 +182,12 @@
     }
 }
 
-@media only screen and (max-width: 1189px){
+@media only screen and (max-width: 1188px){
     .world_ic{
-        display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
+   .btns{
+    display: flex;
+    justify-content: space-around   
+} 
 }
